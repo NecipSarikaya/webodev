@@ -1,0 +1,131 @@
+.lfont{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mfont{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sfont{
+    font-size: 0.8rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bul{
+    list-style: none; 
+    margin: 0px; 
+    padding: 0px;
+}
+.lul{
+    list-style: square;
+}
+@media only screen and (max-width: 600px) {
+    .resim{
+        border-radius: 50%;
+        width: 128px;
+    }
+    .btext2{
+        font-size: 1.2rem;
+        color: royalblue;
+    }
+    .flexs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btext{
+        font-size: 2.5rem;
+    }
+    .headings{
+        font-size: 1.4rem;
+        color: royalblue;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .resim{
+        border-radius: 50%;
+        width: 128px;
+    }
+    .btext2{
+        font-size: 1.8rem;
+        color: royalblue;
+    }
+    .flexs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btext{
+        font-size: 4rem;
+    }
+    .headings{
+        font-size: 1.8rem;
+        color: royalblue;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .resim{
+        border-radius: 50%;
+        width: 96px;
+    }
+    .btext{
+        font-size: 3rem;
+    }
+    .btext2{
+        color: royalblue;
+        font-size: 1.4rem;
+    }
+    .flexs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headings{
+        font-size: 1.4rem;
+        color: royalblue;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .resim{
+        border-radius: 50%;
+        width: 96px;
+    }
+    .btext{
+        font-size: 3rem;
+    }
+    .btext2{
+        color: royalblue;
+        font-size: 1.6rem;
+    }
+    .flexs{
+        display: block;
+    }
+    .headings{
+        font-size: 1.5rem;
+        color: royalblue;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .resim{
+        border-radius: 50%;
+        width: 128px;
+    }
+    .btext{
+        font-size: 3rem;
+    }
+    .btext2{
+        color: royalblue;
+        font-size: 1.8rem;
+    }
+    .flexs{
+        display: block;
+    }
+    .headings{
+        font-size: 1.8rem;
+        color: royalblue;
+    }
+}
